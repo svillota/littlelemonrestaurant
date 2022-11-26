@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(214, 219, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.image-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+.nav-bar{
+    background-color: rgb(40, 43, 46);
+    height: 3rem;
+    align-content: center;
+    border-radius: 2rem;
+}
+.nav-list {
+    list-style: none;
+    text-align: center;
+}
+.nav-item {
+    display: inline-flex;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    font-weight: bold;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px white ;
+}
+h1 {
+    font-size: 2.4rem;
+}
+h2 {
+    font-size: 2rem;
+}
+P {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+section {
+    display: flex;
+    margin-bottom: 3rem;
+}
+article {
+    flex: 1;
+}
+.main-article {
+    /*background-color: rgb(35, 65, 57);*/
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: white;
+    background-image: url(./Art-1-img.jpg);
+    background-size: 100% 150%;
+    background-repeat: no-repeat;  
+    opacity: 0.8;
+    box-shadow: 0 2px 5px black;
+    height: 15rem;
+}
+.sec-article {
+    margin-right: 2rem;
+    padding: 1.4rem;
+    background-color: rgb(233, 219, 196);
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.096);
+    position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+}
+.sec-article:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+footer{
+    display: flex;
+}
+footer div {
+    flex: 1;
+    margin-top: 4rem;
+}
