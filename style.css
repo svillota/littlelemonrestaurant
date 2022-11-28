@@ -2,7 +2,7 @@ body {
     background-color: rgb(214, 219, 219);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 0;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -15,9 +15,11 @@ body {
 }
 .nav-bar{
     background-color: rgb(40, 43, 46);
-    height: 3rem;
+    height: 100%;
+    padding-bottom: 0.2rem;
     align-content: center;
     border-radius: 2rem;
+    flex-wrap: wrap;
 }
 .nav-list {
     list-style: none;
@@ -48,6 +50,7 @@ h2 {
 P {
     font-size: 1rem;
     font-weight: lighter;
+    margin-top: 3rem;
 }
 section {
     display: flex;
@@ -57,7 +60,6 @@ article {
     flex: 1;
 }
 .main-article {
-    /*background-color: rgb(35, 65, 57);*/
     margin-top: 2rem;
     border-radius: 2rem;
     padding: 2rem;
@@ -67,7 +69,7 @@ article {
     background-repeat: no-repeat;  
     opacity: 0.8;
     box-shadow: 0 2px 5px black;
-    height: 15rem;
+    height: 100%;
 }
 .sec-article {
     margin-right: 2rem;
@@ -76,15 +78,23 @@ article {
     border-radius: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.096);
     position: relative;
-  top: 0;
-  transition: all .1s ease-in;
+    top: 0;
+    transition: all .1s ease-in;
 }
 .sec-article:hover {
     top: -2px;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
+.sec-section{
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 footer{
     display: flex;
+    background-color: rgba(61, 78, 61, 0.075);
+    padding-bottom: 2rem;
+    padding-left: 2rem;
 }
 footer div {
     flex: 1;
